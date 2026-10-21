@@ -14,5 +14,5 @@ python dc.py report center.db
 python -m unittest discover -s tests -v
 ```
 
-The schema enforces foreign keys, unique physical slots, power and rack-capacity constraints through transactional commands. Report output includes available rack units, server power, service counts, and open incidents. An example Unix shell script performs a daily backup and integrity check. This project does not monitor physical equipment or connect to an external asset system.
+The schema enforces foreign keys, unique physical slots, power and rack-capacity constraints through transactional commands. Report output includes available rack units, server power, service counts, and open incidents. An example Unix shell script performs a daily backup and integrity check.
 
